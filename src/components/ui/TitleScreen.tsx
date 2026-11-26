@@ -121,13 +121,11 @@ export function TitleScreen() {
       onClick={handleStart}
     >
       <div style={styles.content}>
-        {/* Logo */}
-        <div style={styles.logoWrapper}>
-          <img
-            src="/openrally_logo_dark.png"
-            alt="OpenRally"
-            style={styles.logoImage}
-          />
+        {/* Nitro Rush brand */}
+        <div style={styles.brandMark}>
+          <span style={styles.brandKicker}>MDS GAMES PRESENTS</span>
+          <span style={styles.brandTitle}>NITRO <b>RUSH</b></span>
+          <span style={styles.brandSub}>3D RALLY EXPERIENCE</span>
         </div>
 
         {/* Clean, minimalist call to action */}
@@ -138,8 +136,8 @@ export function TitleScreen() {
 
         {/* Game Author Credit */}
         <div style={styles.authorBadge}>
-          <span style={styles.authorLabel}>CREATED BY</span>
-          <span style={styles.authorName}>TensorDrift Studio</span>
+          <span style={styles.authorLabel}>EDITION</span>
+          <span style={styles.authorName}>MDS Games</span>
           <span style={styles.versionTag}>• v{GAME_VERSION}</span>
         </div>
       </div>
