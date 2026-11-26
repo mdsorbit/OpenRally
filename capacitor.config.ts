@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'com.openrally.app',
-  appName: 'OpenRally',
+  appId: 'com.mdsorbit.nitrorush',
+  appName: 'Nitro Rush',
   webDir: 'dist',
   server: {
     androidScheme: 'https'
