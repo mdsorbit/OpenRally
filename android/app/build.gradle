@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace = "com.openrally.app"
+    namespace = "com.mdsorbit.nitrorush"
     compileSdk = rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.openrally.app"
+        applicationId "com.mdsorbit.nitrorush"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
