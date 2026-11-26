@@ -1,9 +1,9 @@
 <div align="center">
   <img src="public/openrally_logo_dark.png" alt="OpenRally Logo" width="520" />
 
-  <h1>OpenRally</h1>
+  <h1>Nitro Rush</h1>
 
-  <p><strong>Next-generation open-source 3D arcade-sim rally experience developed by TensorDrift Studio, running directly in modern web browsers and natively on Android at 60+ FPS.</strong></p>
+  <p><strong>Nitro Rush is the MDS Games edition of the OpenRally 3D rally game. Original project by TensorDrift Studio; see the retained MIT license and attribution.</strong></p>
 
   <p>
     <a href="https://github.com/TensorDriftStudio/OpenRally/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-blue?logo=github&logoColor=white" alt="Release v1.0.0" /></a>
