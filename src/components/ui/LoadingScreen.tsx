@@ -139,13 +139,9 @@ export function LoadingScreen() {
       }}
     >
       <div style={styles.content}>
-        {/* Game Logo */}
-        <div style={styles.logoContainer}>
-          <img
-            src="/openrally_logo_dark.png"
-            alt="OpenRally"
-            style={styles.logoImage}
-          />
+        {/* Nitro Rush brand */}
+        <div style={styles.brandMark}>
+          <span style={styles.brandTitle}>NITRO <b>RUSH</b></span>
         </div>
 
         {/* Stage & Machine Preview Pill (Only shown when entering gameplay/stage) */}
@@ -175,7 +171,7 @@ export function LoadingScreen() {
         <p style={styles.subtitle}>
           {isMenuLoading
             ? displayProgress < 100
-              ? `INITIALIZING OPENRALLY • ${displayProgress}%`
+              ? `INITIALIZING NITRO RUSH • ${displayProgress}%`
               : 'RETURNING TO MAIN MENU'
             : displayProgress < 100
               ? `INITIALIZING SIMULATION • ${displayProgress}%`
@@ -184,8 +180,8 @@ export function LoadingScreen() {
 
         {/* Author Credit Badge */}
         <div style={styles.authorBadge}>
-          <span style={styles.authorLabel}>CREATED BY</span>
-          <span style={styles.authorName}>TensorDrift Studio</span>
+          <span style={styles.authorLabel}>EDITION</span>
+          <span style={styles.authorName}>MDS Games</span>
           <span style={styles.versionTag}>• v{GAME_VERSION}</span>
         </div>
       </div>
